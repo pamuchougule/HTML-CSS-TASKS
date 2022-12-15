@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS task</title>
+    <style>
+
+        #parent,#parent2,#parent3{
+            background-color: green;
+        }
+        #parent p{
+            background-color: bisque;
+        }
+        #parent2 > p{
+            background-color: darkorange;
+        }
+        #parent2 + h1{
+            background-color:darkred !important;
+        }
+            #parent2 ~ h1{
+            background-color: darkcyan;
+            }
+            #google{
+                background-color: yellow;
+            }
+            #sudeo{
+                background-color: orange;
+                fist
+            }
+            #sudeo > p::first-line{
+                background-color: red;
+            }
+            #twit{
+                background-color: yellowgreen;
+            }
+
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quidem!</p>
+       <h1>HELLO </h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, magni.</p>
+       
+</div>
+    <div id="parent2">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quidem!</p>
+       <h1>hello</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, magni.</p>
+       <span> <p>Lorem ipsum dolor sit amet.</p>
+       </span>
+
+    </div>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>HELLO</p>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+
+        <hr />
+        <h2>PSEUDO & ELEMENT</h2>
+        <a href="#">GOOGLE</a>
+        <a href="#" id="google">FACEBOOK</a>
+        <a href="#">INSTAGRAM</a>
+        <a href="#" id="twit">TWIITER</a>
+        <p id="sudeo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, modi qui nostrum quisquam animi ipsa magni tempora illo perspiciatis ducimus sunt sint ab suscipit nam quas illum repudiandae deserunt velit recusandae. Explicabo, ab ex adipisci quos illum dolores minima consectetur deleniti id asperiores expedita dignissimos officia earum vitae, architecto laboriosam provident soluta ut? Maxime assumenda dolorem laboriosam id ducimus eum autem soluta, ipsa qui alias aperiam voluptatum fugit recusandae porro voluptates repellat, iusto animi, placeat architecto at debitis facilis fugiat? Excepturi exercitationem deleniti earum laudantium reprehenderit ducimus nesciunt itaque quod delectus tempora, eos blanditiis suscipit quam in enim adipisci alias? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, numquam dicta? Corporis voluptatem provident facilis velit aperiam placeat asperiores rem.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel perspiciatis quo molestiae minus sapiente explicabo maxime exercitationem mollitia totam, at corrupti doloremque. Architecto fugit ipsum quisquam, quibusdam aspernatur cumque veniam laudantium minus tenetur deserunt.
+
+        </p>
+        
+        
+       
+       
+    
+</body>
+</html>

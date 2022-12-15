@@ -1,0 +1,14 @@
+*{background-color: orange;}
+
+.first{color:saddlebrown;font-weight: 400;font-size:xx-large; font-style: italic;}
+
+#boxmodel{
+    text-align: center;
+    background-color: black; color: gold;
+    border: 2px dashed skyblue;
+margin: 50px;
+padding:40px;
+outline: 5px solid red;
+}
+
+

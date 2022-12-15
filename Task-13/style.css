@@ -1,0 +1,351 @@
+h1{
+    color: red;
+}
+h2{
+    color: blue;
+}
+
+/* row*/
+
+#row{
+    background-color:violet;
+    padding: 1rem;
+    display: flex;
+    
+}
+  .box{
+    background-color: red;
+    margin: 1rem;
+    padding: 1rem;
+    color: black;
+    width: 3rem;
+    height: 3rem;
+  }
+  /*column*/
+  #column{
+    background-color: firebrick;
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  
+  
+  .column{
+    background-color: red;
+    
+    margin: 2rem;
+    padding: 2rem;
+    color: black;
+    width: 3rem;
+    height: 3rem;
+  }
+  /*rowreverse*/
+  #rowreverse{
+    background-color: salmon;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+
+
+  }
+  .rowreverse{
+    background-color: green;
+    
+    margin: 2rem;
+    padding: 2rem;
+    color: black;
+    width: 3rem;
+    height: 3rem;
+  }
+  /*columnreverse*/
+
+  #columnreverse{
+    background-color: palegreen;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+
+
+  }
+  .columnreverse{
+    background-color: black;
+    
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+
+/* justify-content:row*/
+  
+
+
+  #spacearound{
+    background-color:fuchsia;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+
+
+  }
+  .spacearound{
+    background-color:red;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+
+
+  #spaceevenly{
+    background-color: royalblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+
+
+  }
+  .spaceevenly{
+    background-color: greenyellow;
+    margin: 2rem;
+    padding: 2rem;
+    color: black;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  #spacebetween{
+    background-color: hotpink;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+
+  }
+  .spacebetween{
+    background-color: red;
+    margin: 2rem;
+    padding: 2rem;
+    color:black;
+    width: 3rem;
+    height: 3rem;
+  }
+  /* justify-content:column*/
+
+
+  #columnspacearound{
+    background-color: teal;
+    padding: 2rem;
+    display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   
+   }
+
+
+  .columnspacearound{
+    background-color: black;
+     margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+
+
+  #columnspaceevenly{
+    background-color: gray;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
+  }
+  .columnspaceevenly{
+    background-color: darkred;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  #columnspacebetween{
+    background-color: hotpink;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+  }
+  .columnspacebetween{
+    background-color: gold;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+  /*algin-iterm*/
+
+
+  #alginflexstart{
+    background-color: black;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+   
+
+
+   }
+
+
+  .alginflexstart{
+    background-color: white;
+     margin: 2rem;
+    padding: 2rem;
+    color: black;
+    width: 3rem;
+    height: 3rem;
+  }
+
+
+  #algincenter{
+    background-color: honeydew;
+    height: auto;
+    width: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .algincenter{
+    background-color: black;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    
+  }
+
+  #alginflexend{
+    background-color: violet;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   align-items: flex-end;
+   
+
+  }
+  .alginflexend{
+    background-color: green;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    
+  }
+  
+  #rowalginflexstart{
+    background-color: darkblue;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+   
+
+
+   }
+
+
+  .rowalginflexstart{
+    background-color: red;
+     margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+
+
+  #rowalgincenter{
+    background-color: darkblue;
+    height: auto;
+    width: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .rowalgincenter{
+    background-color: red;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    
+  }
+
+  #rowalginflexend{
+    background-color: darkblue;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+   align-items: flex-end;
+  }
+  .rowalginflexend{
+    background-color: red;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+    
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+ 

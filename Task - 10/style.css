@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=La+Belle+Aurore&display=swap');
+
+body {
+    background-color: blanchedalmond;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#heading2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#heading3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 20px;
+
+    
+    
+}
+.box{ 
+    width: 10rem;
+    height: 10rem;
+    background-color: brown;
+    border: 2px solid purple;
+
+}
+#box1{
+    position: relative;
+    background-color: yellow;
+    z-index: 999999999;
+}
+#box2{
+    position: relative;
+    background-color: black;
+    margin-top: -5rem;
+    margin-left: 5rem;
+    z-index: 0;
+
+}
+#box3{
+    margin: 3rem;
+    background-color: blueviolet;
+    border:2px solid green;
+    width: 10rem;
+    height: 10rem;
+
+}
+#heading4{
+    background-color: aqua;
+    display: inline;
+}
+#link2{
+    background-color: blueviolet;
+    display: block;
+    width: 10rem;
+    height: 10rem;
+
+}
+#link3{
+    background-color:purple;
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+
+
+}
+#link4{
+    display: none;
+
+}
+#card{
+    background-color: blue;
+}
+#card-2{
+    background-color: aquamarine;
+    position: relative;
+}
+#relative{
+    background-color: brown;
+    position: relative;
+    bottom: 11.5rem;
+    left: 77rem;
+}
+#absulute{
+    background-color: brown;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+
+  
+}
+#card2{
+    position: relative;
+}
+#twitter{
+    background-color: rgb(20, 238,0);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    cursor: pointer;
+}
+#twitter:hover{
+    background-color: red;
+}
+#stiky{
+    background-color:orangered;
+    position: sticky;
+    top: 5rem;
+}

@@ -1,0 +1,44 @@
+body{
+    background-color: aqua;
+}
+h1{
+    font-size: 50px;
+
+
+}
+h2{
+    font-size: 30px;
+}
+body{
+    background-color:pink;
+}
+    @media only screen and (max-width:820px) {
+
+        h1{
+            font-size: 30px;
+        
+        
+        }
+        body{
+            background-color:blanchedalmond;
+            color: red;
+        }
+
+    }
+    @media only screen and (max-width:490px) {
+       
+        body{
+            background-color: cadetblue;
+            color: aquamarine;
+        }
+        h2{
+            display: none;
+        }
+
+    }
+        
+    
+    
+    
+        
+    
